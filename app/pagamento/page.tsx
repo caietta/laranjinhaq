@@ -191,12 +191,12 @@ export default function CheckoutPage() {
               console.error("Erro ao enviar dados para UTMify:", e);
             }
 
-            // Redireciona para página externa após 2 segundos
+            // Redireciona para página de pós-checkout após 2 segundos
             setTimeout(() => {
               console.log(
-                `[REDIRECT] Iniciando redirecionamento para: https://imperiovips.com/obg2/`
+                `[REDIRECT] Iniciando redirecionamento para: /poscheckout`
               );
-              window.location.href = "https://imperiovips.com/obg2/";
+              window.location.href = "/poscheckout";
             }, 2000);
             return;
           }
@@ -921,8 +921,8 @@ export default function CheckoutPage() {
                     <button
                       onClick={() => {
                         closeVerificationModal();
-                        // Redireciona para página externa
-                        window.location.href = "https://imperiovips.com/obg2/";
+                        // Redireciona para página de pós-checkout
+                        window.location.href = "/poscheckout";
                       }}
                       className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 hover:scale-[1.02]"
                     >
