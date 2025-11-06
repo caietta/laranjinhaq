@@ -156,11 +156,18 @@ export default function PresellPage() {
             <Button
               size="lg"
               className="w-full px-12 py-6 text-xl font-bold bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-              onClick={() =>
-                (window.location.href =
-                  (isTelegram ? "/inicio?istelegram=true" : "/inicio") +
-                  window.location.search)
-              }
+              onClick={() => {
+                const currentParams = new URLSearchParams(
+                  window.location.search
+                );
+                if (isTelegram) {
+                  currentParams.set("istelegram", "true");
+                }
+                const queryString = currentParams.toString();
+                window.location.href = `/inicio${
+                  queryString ? `?${queryString}` : ""
+                }`;
+              }}
             >
               🚪 ENTRADA AUTOMÁTICA
             </Button>
