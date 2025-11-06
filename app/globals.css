@@ -4,17 +4,7 @@
 
 @font-face {
   font-family: "Kawaii RT Mona Shine";
-  src: url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.eot");
-  src: url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/0c724f101203cc7cfed94dbd04d7b232.svg#Kawaii RT Mona Shine")
-      format("svg");
+  src: url("/kawaii-rt-mona-shine.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

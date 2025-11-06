@@ -94,8 +94,12 @@ export default function PresellPage() {
           {/* Logo/Brand */}
           <div className="space-y-2">
             <h1
-              className="text-4xl md:text-5xl font-bold text-orange-900 tracking-tight"
-              style={{ fontFamily: "'Kawaii RT Mona Shine', cursive" }}
+              className="font-bold text-orange-900 tracking-tight"
+              style={{
+                fontFamily: "'Bubblegum Sans', cursive, sans-serif",
+                fontSize: "36px",
+                fontStyle: "italic",
+              }}
             >
               🍊 LARANJINHA MÍDIAS
             </h1>

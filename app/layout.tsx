@@ -27,6 +27,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
+          rel="stylesheet"
+        />
         <script src="https://telegram.org/js/telegram-web-app.js"></script>
         <script src="/telegram-web-app.js"></script>
       </head>

@@ -247,7 +247,7 @@ export default function LaranjinhaMidiasPage() {
             {/* Logo central com nome da marca Laranjinha Midias */}
             <div className="flex items-center justify-center flex-1">
               <button className="transition-all duration-200 hover:scale-105">
-                <div className="flex items-center gap-[0.3rem]">
+                <div className="flex items-center justify-center gap-[0.3rem]">
                   <div className="flex items-center justify-center">
                     <img
                       alt="Laranjinha Midias Icon"
@@ -258,12 +258,12 @@ export default function LaranjinhaMidiasPage() {
                       src="./laranjinha.png"
                     />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col items-center justify-center">
                     <h1 className="text-2xl font-bold leading-tight italic font-['Poppins',sans-serif]">
                       <span
                         className="text-orange-50"
                         style={{
-                          fontFamily: "'Kawaii RT Mona Shine', cursive",
+                          fontFamily: "'Bubblegum Sans', cursive, sans-serif",
                         }}
                       >
                         Laranjinha Midias
