@@ -146,13 +146,10 @@ export default function PresellPage() {
               <p>+18 garotas jovens, MILFs, orgias, flagrantes</p>
               <p>Patricinhas, faveladinhas, famosas e amadoras</p>
             </div>
-            <p className="text-center font-bold text-orange-900 text-lg">
-              +4.000 MODELOS // MÍDIAS ÚNICAS
-            </p>
           </div>
 
           {/* CTA Button */}
-          <div className="pt-2 space-y-4">
+          <div className="space-y-4">
             <Button
               size="lg"
               className="w-full px-12 py-6 text-xl font-bold bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
